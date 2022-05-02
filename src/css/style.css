@@ -1,13 +1,25 @@
+.header {
+    margin-left: 20px;
+}
+
+.status {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
 .hole-game {
-    width: 800px;
+    width: 600px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    cursor: url('../img/hummer-cursor\ \(1\).png'), pointer;
 }
   
 .hole {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin: 0 15px 30px;
     background: gray;
     border-radius: 50%;
