@@ -1,26 +1,26 @@
 .header {
-    margin-left: 20px;
+    text-align: center;
 }
 
 .status {
     margin-bottom: 30px;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 20px;
 }
 
-
 .hole-game {
-    width: 600px;
+    width: 365px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    cursor: url('../img/hummer-cursor\ \(1\).png'), pointer;
+    margin-right: auto;
+    margin-left: auto;
 }
   
 .hole {
-    width: 100px;
-    height: 100px;
-    margin: 0 15px 30px;
+    width: 70px;
+    height: 70px;
+    margin: 0 10px 30px;
     background: gray;
     border-radius: 50%;
 }
@@ -30,4 +30,16 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.form {
+    text-align: center;
+}
+
+.new-game {
+    height: 30px;
+}
+
+.hammer {
+    cursor: url('../img/hummer-cursor\ \(1\).png'), pointer;
 }
