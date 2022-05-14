@@ -1,3 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/otptf34wv9aph75d?svg=true)](https://ci.appveyor.com/project/Jenyadio/env)
+[![Build status](https://ci.appveyor.com/api/projects/status/6u0bsaq1xy86digi?svg=true)](https://ci.appveyor.com/project/Jenyadio/goblin-game)
 
-https://jenyadio.github.io/Env/
+Ссылка на игру 
+https://jenyadio.github.io/Goblin-game/
