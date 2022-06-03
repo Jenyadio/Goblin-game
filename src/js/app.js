@@ -4,8 +4,8 @@ const random = new Random();
 
 class GoblinGame {
   constructor() {
-    this.dead = Number(document.getElementById('dead').textContent);
-    this.lost = Number(document.getElementById('lost').textContent);
+    this.dead = 0;
+    this.lost = 0;
     this.holesArea = document.querySelector('.hole-game');
     this.timer = 0;
   }
@@ -21,6 +21,7 @@ class GoblinGame {
     this.holesArea.addEventListener('mousedown', (event) => {
       if (event.target.classList.contains('hole_has-mole')) {
         event.target.classList.add('hammer');
+        event.target.classList.remove('hole_has-mole');
         this.lost -= 1;
         this.dead += 1;
         document.getElementById('dead').textContent = this.dead;
